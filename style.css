@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 20px;
+    color: rgb(27, 27, 176);
+}
+
+header img {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 350px;
+    /* height: 100px; */
+}
+nav{
+    padding: 0 20px 0 20px;
+    background-color: rgb(253, 31, 149);
+    font-size: 20px;
+    height: 30px;
+    align-content: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+nav ul li{
+    padding-left: 50px;
+    margin-left: 2px;
+    /* background-color: red; */
+}
+
+.container{
+    margin: 7px;
+    background-color: yellowgreen;
+    height: 150vh;
+}
+
+.container .wel-app{
+    border-radius: 10px 10px 0 0;
+    height: 25px;
+    align-items: center;
+    padding: 2px 20px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.reg-fee{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.reg-fee > div{
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 3px 0;
+    padding-left: 40px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+.reg-fee div .circle{
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px black solid;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.personal{
+    background-color: blue;
+    border-radius: 0 10px 10px 0px;
+    width:150px;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.table{
+    /* background-color: red; */
+    width: 60%;
+}
+.table table{
+    width: 100%;
+}
+.Apply-For{
+    margin: 2px auto;
+    /* background-color: rgb(203, 30, 30); */
+    align-content: center;
+    font-size:large;
+}
+table tr td p{
+    text-align:right;
+}
+table td{
+    padding-top: 5px;
+}
+.apply{
+    background-color: blue;
+    border-radius: 0 10px 10px 0;
+    width:150px;
+    height:30px;
+    align-content: center;
+    margin-top:2px;
+    padding-left: 30px;
+}
